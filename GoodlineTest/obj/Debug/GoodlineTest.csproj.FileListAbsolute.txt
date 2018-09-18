@@ -1,0 +1,15 @@
+D:\Моя папка\GoodlineTest\GoodlineTest\bin\Debug\GoodlineTest.exe.config
+D:\Моя папка\GoodlineTest\GoodlineTest\bin\Debug\GoodlineTest.exe
+D:\Моя папка\GoodlineTest\GoodlineTest\bin\Debug\GoodlineTest.pdb
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest.csprojAssemblyReference.cache
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\MainWindow.g.cs
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\App.g.cs
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest_MarkupCompile.cache
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest_MarkupCompile.lref
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\MainWindow.baml
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest.g.resources
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest.Properties.Resources.resources
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest.csproj.GenerateResource.cache
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest.csproj.CoreCompileInputs.cache
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest.exe
+D:\Моя папка\GoodlineTest\GoodlineTest\obj\Debug\GoodlineTest.pdb

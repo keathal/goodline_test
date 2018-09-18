@@ -1,0 +1,30 @@
+﻿<Window x:Class="GoodlineTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoodlineTest"
+        mc:Ignorable="d"
+        Title="GoodlineTest" Height="450" Width="450">
+    <Grid Background="AliceBlue">
+        <DataGrid Background="DarkCyan" Name="dgMain" Margin="10,36,10,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding Path=id}" Width="10"></DataGridTextColumn>
+                <DataGridTemplateColumn Header="Avatar" Width="70">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Width="70" Source="{Binding Path=avatar}"></Image>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding Path=first_name}" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Surname" Binding="{Binding Path=last_name}" Width="1*"></DataGridTextColumn>
+                </DataGrid.Columns>
+                
+        </DataGrid>
+        <Button Background="LightBlue" Content="Next page" Name="b_next" HorizontalAlignment="Right" Margin="10" VerticalAlignment="Bottom" Width="90" Height="30" Click="b_next_Click"/>
+        <Button Background="LightBlue" Content="Previous page" Name="b_prev" HorizontalAlignment="Right" Margin="0,0,105,10" VerticalAlignment="Bottom" Width="90" Height="30" Click="b_prev_Click"/>
+        <Label Name="t_status" Content="Downloading..." HorizontalAlignment="Right" Margin="10" VerticalAlignment="Top" Width="150"/>
+
+    </Grid>
+</Window>
